@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://www.facephi.com'
   s.license          = { :type => 'Commercial', :file => 'LICENSE' }
   s.author           = { 'Leandro Mahia' => 'lmahia@facephi.com' }
-  s.source           = { :git => 'https://github.com/lmahia@facephi.com/FPhiSelphIDWidgetiOSAbbyy.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/lmahia/FPhiSelphIDWidgetiOSAbbyy.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '11.0'
   s.static_framework = true
