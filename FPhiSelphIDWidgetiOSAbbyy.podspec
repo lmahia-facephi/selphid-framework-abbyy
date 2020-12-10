@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FPhiSelphIDWidgetiOSAbbyy'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'Component for OCR and liveness test'
   s.description      = <<-DESC
   Safe digital onboarding solution with the best real time OCR in the market with facial liveness test.
