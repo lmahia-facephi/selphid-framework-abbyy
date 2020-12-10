@@ -33,4 +33,6 @@ Pod::Spec.new do |s|
   s.dependency 'FPAbbyyRtrSDK'
   s.dependency 'zipzap'
 
+  s.libraries = 'c++', 'z'
+
 end
