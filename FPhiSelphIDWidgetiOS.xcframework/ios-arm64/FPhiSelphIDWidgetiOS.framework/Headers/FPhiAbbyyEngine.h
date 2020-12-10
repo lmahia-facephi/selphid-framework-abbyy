@@ -3,7 +3,7 @@
 
 #import <Foundation/Foundation.h>
 
-@import AbbyyRtrSDK;
+#import "FPAbbyyRtrSDK.h"
 
 #import "FPhiSelphIDDocumentManager.h"
 

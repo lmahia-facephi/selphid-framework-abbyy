@@ -4,17 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Assets/graphselphid.xml</key>
-		<data>
-		kBOUj6uwzs2ygagKxlP25cDMTmY=
-		</data>
 		<key>Headers/FPBSelphIDDocumentRawData.h</key>
 		<data>
 		K4TKZjfap7cP1OkJvW7Cd7Isxos=
 		</data>
 		<key>Headers/FPhiAbbyyEngine.h</key>
 		<data>
-		VwCnhh9LKUVK6YIv5+NQjtnLVpQ=
+		ELrvH0yl/tmY/oA4W8hBB5QE3dI=
 		</data>
 		<key>Headers/FPhiAbbyyMapper.h</key>
 		<data>
@@ -76,6 +72,10 @@
 		<data>
 		s04l2kkCw6Jfz89treZMseC9NPM=
 		</data>
+		<key>assets/graphselphid.xml</key>
+		<data>
+		kBOUj6uwzs2ygagKxlP25cDMTmY=
+		</data>
 		<key>patterns/CropClassifierPhoto.imodel</key>
 		<data>
 		oylhShAl6v8FrGzRo6xwLR+4WiQ=
@@ -99,17 +99,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Assets/graphselphid.xml</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			kBOUj6uwzs2ygagKxlP25cDMTmY=
-			</data>
-			<key>hash2</key>
-			<data>
-			yPhP2rnHpUebb+yrIqO4QmcMtknFi3poAlULhU4zn0M=
-			</data>
-		</dict>
 		<key>Headers/FPBSelphIDDocumentRawData.h</key>
 		<dict>
 			<key>hash</key>
@@ -125,11 +114,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VwCnhh9LKUVK6YIv5+NQjtnLVpQ=
+			ELrvH0yl/tmY/oA4W8hBB5QE3dI=
 			</data>
 			<key>hash2</key>
 			<data>
-			NuhX9r8Bsj/vEF7fyOJj6QyLHztjwM+K2Cb5m6w2Kqo=
+			qNkYiNDYEVJ6cwKF6kAtBQWam6yne+NfcYrac4YiOJs=
 			</data>
 		</dict>
 		<key>Headers/FPhiAbbyyMapper.h</key>
@@ -284,6 +273,17 @@
 			<key>hash2</key>
 			<data>
 			b4k/U87gbU9oD0bsSA3ooYSIE97dG1zfpyZEi5TZ5kQ=
+			</data>
+		</dict>
+		<key>assets/graphselphid.xml</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kBOUj6uwzs2ygagKxlP25cDMTmY=
+			</data>
+			<key>hash2</key>
+			<data>
+			yPhP2rnHpUebb+yrIqO4QmcMtknFi3poAlULhU4zn0M=
 			</data>
 		</dict>
 		<key>patterns/CropClassifierPhoto.imodel</key>
