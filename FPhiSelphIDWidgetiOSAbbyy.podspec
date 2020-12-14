@@ -27,10 +27,10 @@ Pod::Spec.new do |s|
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 i386'
   }
 
-  s.ios.resources = {
+  s.ios.resources = [
     'fphi-selphid-widget-resources-selphid-1.0.zip',
     'FPhiSelphIDWidgetiOSResources.bundle'
-  }
+  ]
   s.ios.vendored_frameworks = 'FPhiSelphIDWidgetiOS.xcframework'
 
   s.dependency 'FPAbbyyRtrSDK'
