@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/FPhiAbbyyEngine.h</key>
 		<data>
-		ELrvH0yl/tmY/oA4W8hBB5QE3dI=
+		p2U2yWPMTbsPyuMMI5Lj9DNdEDY=
 		</data>
 		<key>Headers/FPhiAbbyyMapper.h</key>
 		<data>
@@ -66,35 +66,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		cZPzSXMfb5MQ5kV9HXLXogEPi4s=
+		iGCumFLLKq9IeV/rw55yfpD/t0g=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		s04l2kkCw6Jfz89treZMseC9NPM=
-		</data>
-		<key>assets/graphselphid.xml</key>
-		<data>
-		kBOUj6uwzs2ygagKxlP25cDMTmY=
-		</data>
-		<key>patterns/CropClassifierPhoto.imodel</key>
-		<data>
-		oylhShAl6v8FrGzRo6xwLR+4WiQ=
-		</data>
-		<key>patterns/DIQBlockClassifier.imodel</key>
-		<data>
-		RaEu6ecInsFhfqdnBDPN312WrfI=
-		</data>
-		<key>patterns/DIQClassifier.imodel</key>
-		<data>
-		2poea6nluLsrOAFFkzXNVvFy0Os=
-		</data>
-		<key>patterns/ID_ES_EDC.rom</key>
-		<data>
-		Yzv/haZeFtZVwFOjry+IuZr+rfU=
-		</data>
-		<key>patterns/MRZ.rom</key>
-		<data>
-		webA/jyCi2yS8dGaLwf8NQjPRos=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -114,11 +90,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ELrvH0yl/tmY/oA4W8hBB5QE3dI=
+			p2U2yWPMTbsPyuMMI5Lj9DNdEDY=
 			</data>
 			<key>hash2</key>
 			<data>
-			qNkYiNDYEVJ6cwKF6kAtBQWam6yne+NfcYrac4YiOJs=
+			/6T118Mw1X4njbTRc625DqQKsXBvUBL6HMz6ztz0iVI=
 			</data>
 		</dict>
 		<key>Headers/FPhiAbbyyMapper.h</key>
@@ -273,72 +249,6 @@
 			<key>hash2</key>
 			<data>
 			b4k/U87gbU9oD0bsSA3ooYSIE97dG1zfpyZEi5TZ5kQ=
-			</data>
-		</dict>
-		<key>assets/graphselphid.xml</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			kBOUj6uwzs2ygagKxlP25cDMTmY=
-			</data>
-			<key>hash2</key>
-			<data>
-			yPhP2rnHpUebb+yrIqO4QmcMtknFi3poAlULhU4zn0M=
-			</data>
-		</dict>
-		<key>patterns/CropClassifierPhoto.imodel</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			oylhShAl6v8FrGzRo6xwLR+4WiQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			KD1gGTsJIrQ1zGoKb+AqPKhOP5E8GOf8klyzvTf6dNY=
-			</data>
-		</dict>
-		<key>patterns/DIQBlockClassifier.imodel</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			RaEu6ecInsFhfqdnBDPN312WrfI=
-			</data>
-			<key>hash2</key>
-			<data>
-			jJrKpWYntW36VVGHfmppnwHc0jc/lppjUn1Af9EUhd4=
-			</data>
-		</dict>
-		<key>patterns/DIQClassifier.imodel</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2poea6nluLsrOAFFkzXNVvFy0Os=
-			</data>
-			<key>hash2</key>
-			<data>
-			L6I/Ms1Xx+lmKn9refDrYv0LO9QQmY1YwSD20yefAUw=
-			</data>
-		</dict>
-		<key>patterns/ID_ES_EDC.rom</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Yzv/haZeFtZVwFOjry+IuZr+rfU=
-			</data>
-			<key>hash2</key>
-			<data>
-			Yl/72tuMA3G6vOCsp8yIUWt2bG9ezMASuZXdKA6xorg=
-			</data>
-		</dict>
-		<key>patterns/MRZ.rom</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			webA/jyCi2yS8dGaLwf8NQjPRos=
-			</data>
-			<key>hash2</key>
-			<data>
-			VenWKXcjOToAqNkBG6/Uw9JvqXi4jJ2K/Z5u8Cl6SVw=
 			</data>
 		</dict>
 	</dict>

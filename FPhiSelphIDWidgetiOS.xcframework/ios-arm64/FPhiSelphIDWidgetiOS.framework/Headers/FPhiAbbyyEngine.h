@@ -6,6 +6,7 @@
 #import "FPAbbyyRtrSDK.h"
 
 #import "FPhiSelphIDDocumentManager.h"
+#import "FPhiSelphIDError.h"
 
 /// Further information https://help.abbyy.com/en-us/mobilecapturesdk/1/ios_help/introduction
 
@@ -38,7 +39,8 @@ typedef CGSize DocumentSize;
 @protocol AbbyyResultCallback <NSObject>
 
 -(void)onResult:(NSMutableDictionary<NSString *, NSString *> *)data :(NSMutableDictionary<NSString *, UIImage *> *)croppedImages;
--(void)onError:(NSString *)message;
+-(void)onRetry:(NSString *)cause;
+-(void)onError:(FPhiSelphIDWidgetError)type :(NSString *)message;
 
 @end
 
