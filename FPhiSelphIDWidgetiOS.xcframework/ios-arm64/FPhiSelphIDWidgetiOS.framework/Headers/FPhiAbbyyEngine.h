@@ -21,7 +21,8 @@ typedef NS_ENUM(NSUInteger, DocumentSide)
 
 #pragma mark - DocumentSize
 
-#define TD1 CGSizeMake(53.98f, 85.6f)
+//#define TD1 CGSizeMake(53.98f, 85.6f)
+#define TD1 CGSizeMake(85.6f, 53.98f)
 
 /// Document size used by ABBYY Engine
 typedef CGSize DocumentSize;
@@ -139,6 +140,9 @@ typedef CGSize DocumentSize;
 
 /// Set the document's version based on .xml model
 -(void)setDocumentVersion:(NSString *)version;
+
+/// Gets the document's version captured by the engine
+-(NSString *)getDocumentVersionCaptured;
 
 /// Callback to receive the ABBYY results
 -(void)setResultCallback:(id<AbbyyResultCallback>)callback;

@@ -21,6 +21,9 @@
 @property (atomic) bool processing_image;
 @property (atomic) bool tokenizing_finished;
 
+@property NSDate *lastErrorShownTime;
+
+
 @property (nonatomic) CGPoint lastDetectionUpperLeft;
 @property (nonatomic) CGPoint lastDetectionUpperRight;
 @property (nonatomic) CGPoint lastDetectionLowerLeft;

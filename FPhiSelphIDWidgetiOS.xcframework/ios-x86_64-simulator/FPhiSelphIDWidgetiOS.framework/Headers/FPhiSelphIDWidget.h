@@ -11,12 +11,17 @@
 
 typedef NS_ENUM(NSUInteger, FPhiSelphIDWidgetDocumentType) {
     
+    DTAny,
+
     DTIDCard,
 
     DTPassport,
     
     DTDriversLicense,
+
+    DTForeignCard
 };
+
 
 typedef NS_ENUM(NSUInteger, FPhiSelphIDWidgetDocumentSide) {
     
@@ -33,6 +38,19 @@ typedef NS_ENUM(NSUInteger, FPhiSelphIDWidgetScanMode) {
     SMSpecific,
 
     SMSearch,
+};
+
+
+typedef NS_ENUM(NSUInteger, FPhiSelphIDWidgetMaskingMode) {
+    
+    MMNone = 0,
+    MMResult = 1,
+    MMPreview = 2,
+    MMResultAndPreview = 3,
+    //MMNonePlusUnmaked = 4, // It doesn't make any sense
+    MMResultPlusUnmaked = 5,
+    //MMPreviewPlusUnmaked = 6, // It doesn't make any sense
+    MMResultAndPreviewPlusUnmaked = 7,
 };
 
 
@@ -56,6 +74,7 @@ typedef NS_ENUM(NSUInteger, FPhiSelphIDWidgetTimeout) {
 @property (nonatomic) FPhiSelphIDWidgetDocumentSide scanSide;
 @property (nonatomic) FPhiSelphIDWidgetScanMode scanMode;
 @property (nonatomic) NSString* specificData;
+@property (nonatomic) FPhiSelphIDWidgetMaskingMode maskingMode;
 
 // Widget flags
 @property (nonatomic) bool wizardMode;
@@ -78,11 +97,6 @@ typedef NS_ENUM(NSUInteger, FPhiSelphIDWidgetTimeout) {
 
 @property (nonatomic) float tokenImageQuality;
 
-
-/**
- DEPRECATED: Scene timeout property. This property sets the timeout in the information screens (In seconds, 0 or less not apply).
- */
-@property (nonatomic) float sceneTimeout;
 
 /**
  Capture timeout property. This property sets the timeout for capturing the document.
@@ -110,6 +124,13 @@ typedef NS_ENUM(NSUInteger, FPhiSelphIDWidgetTimeout) {
  This property overrides the definition inside resourcesBundle zip
  */
 @property (nonatomic) NSString *documentModels;
+
+
+/**
+ Filename of the video from the capture process
+ */
+@property (nonatomic) NSString *videoFilename;
+
 
 /**
  Initialize a new user control object.
