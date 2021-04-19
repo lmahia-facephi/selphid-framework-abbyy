@@ -25,7 +25,7 @@
         
         <State name="UCCaptureFrontABBYY">
             <Transition message="DocumentCaptured" to="UCCaptureSuccessFront"/>
-            <Transition message="Error//InvalidDocument" to="UCCapture"/>
+            <Transition message="Error//InvalidDocument" to="UCCaptureErrorFront"/>
             <Transition message="Click//buttonInfo" to="UCTutorial1"/>
             <Transition message="Click//buttonExit" to="UCCancelByUserPrev"/>
             <Transition message="Timeout" to="UCTimeout"/>
@@ -84,13 +84,13 @@
             <Transition message="Click//buttonRetry" to="UCRetryCapture"/>
             <Transition message="Click//buttonInfo" to="UCTutorial1"/>
             <Transition message="Click//buttonExit" to="UCCancelByUserPrev"/>
-            <Transition message="Timeout" to="UCTimeout"/>
+            <!-- <Transition message="Timeout" to="UCTimeout"/> -->
         </State>
         
         <State name="UCShowFinish">
             <Transition message="ShowEnd" to="UCFinishPrev"/>
             <Transition message="CaptureOtherSide" to="UCCaptureOtherSideTransition"/>
-            <Transition message="Timeout" to="UCTimeout"/>
+            <!-- <Transition message="Timeout" to="UCTimeout"/> -->
         </State>
         
         <State name="UCRetryCapture">
