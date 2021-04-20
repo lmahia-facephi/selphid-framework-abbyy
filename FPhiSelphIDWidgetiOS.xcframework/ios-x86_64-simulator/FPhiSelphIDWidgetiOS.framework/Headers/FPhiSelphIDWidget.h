@@ -47,10 +47,10 @@ typedef NS_ENUM(NSUInteger, FPhiSelphIDWidgetMaskingMode) {
     MMResult = 1,
     MMPreview = 2,
     MMResultAndPreview = 3,
-    //MMNonePlusUnmaked = 4, // It doesn't make any sense
-    MMResultPlusUnmaked = 5,
-    //MMPreviewPlusUnmaked = 6, // It doesn't make any sense
-    MMResultAndPreviewPlusUnmaked = 7,
+    //MMNonePlusUnmasked = 4, // It doesn't make any sense
+    MMResultPlusUnmasked = 5,
+    //MMPreviewPlusUnmasked = 6, // It doesn't make any sense
+    MMResultAndPreviewPlusUnmasked = 7,
 };
 
 
