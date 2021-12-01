@@ -3,7 +3,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "FPAbbyyRtrSDK.h"
+#import "AbbyyRtrSDK/AbbyyRtrSDK.h"
 
 #import "FPhiSelphIDDocumentManager.h"
 #import "FPhiSelphIDError.h"
@@ -32,7 +32,7 @@ typedef CGSize DocumentSize;
 /// To communicate with the camera (fill buffers with the image)
 @protocol AbbyyCameraCallback <NSObject>
 
--(void)onFrameFilled:(CMSampleBufferRef)buffer;
+-(void)onFrameFilled:(CMSampleBufferRef)buffer withUIImage:(UIImage *)image;
 
 @end
 
@@ -64,12 +64,13 @@ typedef CGSize DocumentSize;
 
     /// To avoid receive more results from ABBYY when a stable OCR result has been reached
     BOOL _ocrResultHasBeenReached;
-    
+    BOOL _ocrResultProcessing;
+
     /// Mutext to synchronize the ocr result flag
     NSLock *_mutex;
     
     /// Buffer for storing frame image when using DataCapture Service
-    CMSampleBufferRef _bufferImageCapturedByOCR;
+    UIImage *_imageCapturedByOCR;
 
     /// Width of the camera
     int _width;
